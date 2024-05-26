@@ -13,11 +13,38 @@ export default [
     '15 yd range',
     '30 sec cooldown'
   ),
-  new Talent('Barrage', 'ability_upgrademoonglaive', ['Increases the damage done by your Multi-Shot and Volley spells by ', '%.'], 3, [[5, 10, 15]], [{ x: null, y: null }], [{ x: 6, y: 1 }], null, null, null, null, ['D2']),
-  new Talent('Improvied Scorpid Sting', 'ability_hunter_criticalshot', ['Increases the effect of your Scorpid Sting by ', '%.'], 2, [[1, 2]], null, null, null, null, null, null, null, {
+  new Talent(
+    'Barrage', 
+    'ability_upgrademoonglaive', 
+    ['Increases the damage done by your Multi-Shot and Volley spells by ', '%.'], 
+    3, 
+    [[5, 10, 15]], 
+    [{ x: null, y: null }], 
+    [{ x: 6, y: 1 }], 
+    null, 
+    null, 
+    null, 
+    null, 
+    ['D2']
+  ),
+  new Talent(
+    'Improvied Scorpid Sting', 
+    'ability_hunter_criticalshot', 
+    ['Increases the effect of your Scorpid Sting by ', '%.'], 
+    2, 
+    [[1, 2]], 
+    null, 
+    null, 
+    null, 
+    null, 
+    null, 
+    null, 
+    null, 
+    {
     isNew: false,
     isChanged: true,
     isMoved: false,
-  }),
+    }
+  ),
   null,
 ]

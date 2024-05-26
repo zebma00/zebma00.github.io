@@ -38,5 +38,11 @@ export default [
     ['D2']
   ),
   null,
-  new Talent('Bestial Discipline', 'spell_nature_abolishmagic', ['Increases the Focus generation of your pets by ', '%.'], 2, [[10, 20]]),
+  new Talent(
+    'Bestial Discipline', 
+    'spell_nature_abolishmagic', 
+    ['Increases the Focus generation of your pets by ', '%.'], 
+    2, 
+    [[10, 20]]
+  ),
 ]

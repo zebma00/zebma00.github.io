@@ -19,7 +19,31 @@ export default [
     null,
     { isNew: false, isChanged: true, isMoved: false }
   ),
-  new Talent('Fervor', 'ability_druid_healinginstincts', ['Restore 100 focus to your pet.'], 1, [[]], null, null, '100 yd range', null, 'Instant', '2 min cooldown', null, { isNew: true, isChanged: false, isMoved: false }),
-  new Talent('Unleashed Fury', 'ability_bullrush', ['Increases the damage done by your pets by ', '%.'], 5, [[4, 8, 12, 16, 20]]),
+  new Talent(
+    'Fervor', 
+    'ability_druid_healinginstincts', 
+    ['Restore 100 focus to your pet.'], 
+    1, 
+    [[]], 
+    null, 
+    null, 
+    '100 yd range', 
+    null, 
+    'Instant', 
+    '2 min cooldown', 
+    null, 
+    { 
+      isNew: true, 
+      isChanged: false, 
+      isMoved: false 
+    }
+  ),
+  new Talent(
+    'Unleashed Fury', 
+    'ability_bullrush', 
+    ['Increases the damage done by your pets by ', '%.'], 
+    5, 
+    [[4, 8, 12, 16, 20]]
+  ),
   null,
 ]

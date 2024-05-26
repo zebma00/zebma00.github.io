@@ -1,12 +1,22 @@
 import { Talent } from '../../Classes'
 
 const tier2 = [
-  new Talent('Spirit Bond', 'classic_ability_druid_demoralizingroar', ['Increases the physical damage you and your pets deal by ', '% while within 10 yards of each other.'], 2, [[2, 4]], null, null, null, null, null, null, null, {
+  new Talent(
+    'Spirit Bond', 
+    'classic_ability_druid_demoralizingroar', 
+    ['Increases the physical damage you and your pets deal by ', '% while within 10 yards of each other.'], 
+    2, 
+    [[2, 4]], null, null, null, null, null, null, null, {
     isNew: false,
     isChanged: true,
     isMoved: true,
   }),
-  new Talent('Endurance Training', 'spell_nature_reincarnation', ['Increases the health of your pets by ', '%.'], 5, [[3, 6, 9, 12, 15]], null, null, null, null, null, null, null, {
+  new Talent(
+    'Endurance Training', 
+    'spell_nature_reincarnation', 
+    ['Increases the health of your pets by ', '%.'], 
+    5, 
+    [[3, 6, 9, 12, 15]], null, null, null, null, null, null, null, {
     isNew: false,
     isChanged: false,
     isMoved: true,
