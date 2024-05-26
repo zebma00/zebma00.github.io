@@ -1,0 +1,50 @@
+.iconClass {
+	height: 36px;
+	width: 36px;
+	border-radius: 5px !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.selectWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.selectButton {
+	position: relative;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	background-color: transparent;
+	font-size: 2rem;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	z-index: 1;
+}
+
+.selectButton:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.iconWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin: 3px;
+	border-radius: 5px !important;
+}
+
+.iconBorder {
+	position: absolute;
+	height: 44px;
+	width: 44px;
+}

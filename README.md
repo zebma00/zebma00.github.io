@@ -1,5 +1,3 @@
-# zebma00.github.io
-
 ### TO DO
 
 ## General

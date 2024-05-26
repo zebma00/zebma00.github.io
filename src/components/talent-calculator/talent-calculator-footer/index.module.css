@@ -1,0 +1,21 @@
+.tcFooter {
+  margin: 1rem auto;
+  width: 240px;
+}
+
+.reset {
+  margin-left: 0.5rem;
+  color: #c0392b;
+}
+
+.reset:hover {
+  cursor: pointer;
+}
+
+.share {
+  margin-left: 0.5rem;
+}
+
+.share:hover {
+  cursor: pointer;
+}

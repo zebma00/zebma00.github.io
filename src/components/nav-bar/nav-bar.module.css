@@ -1,0 +1,25 @@
+.navBar {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  background-color: #242424;
+  z-index: 999;
+  border-bottom: 2px solid #ebdec2;
+}
+
+.navLink {
+  color: #ffd100;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .navBar {
+    gap: 0;
+    width: 100%;
+  }
+}

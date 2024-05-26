@@ -1,0 +1,59 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  color: white;
+  min-height: 100vh;
+  background-color: #242424;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.35rem 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+
+h4 {
+  font-size: 0.85rem;
+  margin: 0.25rem 0;
+}
+
+p,
+ul,
+li {
+  margin: 0.35rem 0;
+  font-size: 0.85rem;
+  color: #ebdec2;
+}
+
+a {
+  color: #ffd100;
+}
